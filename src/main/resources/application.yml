@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:/tv-schedule-db
+    username: admin
+    password: admin
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+tv.maze.base.url: https://api.tvmaze.com
